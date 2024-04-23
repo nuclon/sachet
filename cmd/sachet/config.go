@@ -14,6 +14,7 @@ import (
 	"github.com/messagebird/sachet/provider/freemobile"
 	"github.com/messagebird/sachet/provider/ghasedak"
 	"github.com/messagebird/sachet/provider/infobip"
+	"github.com/messagebird/sachet/provider/inmobile"
 	"github.com/messagebird/sachet/provider/kannel"
 	"github.com/messagebird/sachet/provider/kavenegar"
 	"github.com/messagebird/sachet/provider/mailruim"
@@ -77,6 +78,7 @@ var config struct {
 		Sfr          sfr.Config
 		TextMagic    textmagic.Config
 		Melipayamak  melipayamak.Config
+		InMobile     inmobile.Config
 	}
 
 	Receivers []ReceiverConf
